@@ -1,8 +1,12 @@
+import Navbar from "@/components/Navbar/Navbar";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="bg-slate-50 h-screen">
+      <nav>
+        <Navbar />
+      </nav>
     </main>
   );
 }
