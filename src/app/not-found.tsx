@@ -8,7 +8,7 @@ export default function Component() {
                 <div className="relative z-10 flex h-full flex-col items-center justify-center px-4 py-12 text-center text-primary-foreground">
                     <h1 className="text-4xl font-bold tracking-tighter sm:text-6xl md:text-7xl">404</h1>
                     <p className="mt-4 max-w-md text-lg font-medium md:text-xl">
-                        Oops, it looks like the page you're looking for doesn't exist.
+                        Oops, it looks like the page you&apos;re looking for doesn&apos;t exist.
                     </p>
                     <Link
                         href="/"
