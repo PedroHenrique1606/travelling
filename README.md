@@ -16,7 +16,7 @@ Landing page de um site de viagens mostrando as belezas do país e promovendo a 
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src="./src/assets/thumbnail.jpg" width="100%">
+  <img alt="Thumbnail" src="./src/assets/thumbnail.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
