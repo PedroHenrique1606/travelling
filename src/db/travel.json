@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Flores Road Trip 3D2N",
+        "duration": "3 Days",
+        "price": 6705000,
+        "location": "Manggarai Barat",
+        "imageUrl": "/path/to/floresroad.png"
+    },
+    {
+        "title": "Bali Adventure",
+        "duration": "5 Days",
+        "price": 8900000,
+        "location": "Denpasar",
+        "imageUrl": "/path/to/baliadventure.png"
+    },
+    {
+        "title": "Jakarta City Tour",
+        "duration": "2 Days",
+        "price": 3500000,
+        "location": "Jakarta",
+        "imageUrl": "/path/to/jakartacitytour.png"
+    }
+]
