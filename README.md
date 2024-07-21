@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center"> Travelling </h1>
 
-## Getting Started
+<p align="center">
+Landing page de um site de viagens mostrando as belezas do país e promovendo a empresa<br/>
+</p>
 
-First, run the development server:
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<p align="center">
+  <img alt="projeto DevLinks" src="./src/assets/thumbnail.jpg" width="100%">
+</p>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🚀 Tecnologias
 
-## Learn More
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-To learn more about Next.js, take a look at the following resources:
+- NEXT 14
+- Typescript
+- Tailwind CSS
+- Figma
+- Muito café
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 💻 Projeto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Este projeto é uma landing page **moderna** e **responsiva** para um site de viagens, desenvolvida com Next.js e Tailwind CSS. A página oferece uma experiência visualmente **atraente** com seções destacadas para destinos populares, benefícios dos serviços e um chamado à ação para planejar suas férias. Elementos interativos, **animações suaves** e ícones sociais completam o design, proporcionando uma navegação intuitiva e envolvente para os usuários.
 
-## Deploy on Vercel
+- [Visite o projeto online](https://travelling-ivory.vercel.app/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## :memo: Licença
+
+Esse projeto está sob a licença MIT.
+
+---
+
+Feito com por Pedro Henrique, [veja meu portfólio](https://pedrofolio.vercel.app/)
