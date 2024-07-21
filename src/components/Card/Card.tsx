@@ -36,9 +36,9 @@ export default function Card({ title, duration, price, location, imageUrl, image
                 </div>
             </div>
             <div className="mt-4">
-                <p className="text-lg font-semibold text-slate-700 mb-2">{title}</p>
-                <p className="text-sm text-slate-600 mb-2">{duration}</p>
-                <p className="text-md font-bold text-cyan-600">{formatRupiah(price)} <sub>/orang</sub></p>
+                <p className="text-sm md:text-lg font-semibold text-slate-700 mb-2">{title}</p>
+                <p className="text-xs md:text-sm text-slate-600 mb-2">{duration}</p>
+                <p className="text-xs md:text-sm font-bold text-cyan-600">{formatRupiah(price)} <sub>/orang</sub></p>
             </div>
         </div>
     );

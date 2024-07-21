@@ -14,8 +14,8 @@ export default function Benefits({icon, title, description, imageWidth, imageHei
             <div className="m-4 flex flex-start gap-6">
                 <Image src={icon} alt="" className="bg-white rounded-lg p-2" width={imageWidth} height={imageHeight} />
                 <div>
-                    <p className="text-gray-900 mb-1">{title}</p>
-                    <p className="text-gray-600 text-sm">{description}</p>
+                    <p className="text-gray-900 mb-1 text-sm md:text-base">{title}</p>
+                    <p className="text-gray-600 text-xs md:text-sm">{description}</p>
                 </div>
             </div>
         </div>
