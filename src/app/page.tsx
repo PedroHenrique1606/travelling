@@ -65,22 +65,22 @@ const benefits = [
     icon: Airplane.src,
     title: "Flight Ticket",
     description: "Vitae donec pellentesque a aliquam et ultricies auctor. ",
-    imageWidth: 50,
-    imageHeight: 50,
+    imageWidth: 55,
+    imageHeight: 55,
   },
   {
     icon: Hotel.src,
     title: "Accomodation",
     description: "Vitae donec pellentesque a aliquam et ultricies auctor. ",
-    imageWidth: 50,
-    imageHeight: 50,
+    imageWidth: 55,
+    imageHeight: 55,
   },
   {
     icon: Baggage.src,
     title: "Packaged Tour",
     description: "Vitae donec pellentesque a aliquam et ultricies auctor. ",
-    imageWidth: 50,
-    imageHeight: 50,
+    imageWidth: 55,
+    imageHeight: 55,
   }
 ]
 
@@ -136,7 +136,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="relative my-12 mx-2 md:hidden"> {/* Exibe apenas em dispositivos móveis */}
+      <div className="relative my-12 mx-2 xl:hidden"> {/* Exibe apenas em dispositivos móveis */}
         <button
           onClick={scrollLeft}
           className="absolute top-1/2 left-0 transform -translate-y-1/2 z-10 p-2 text-white bg-gray-800 rounded-full opacity-75 hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
@@ -174,7 +174,7 @@ export default function Home() {
       </div>
 
       {/* Versão para telas maiores */}
-      <div className="hidden md:flex md:overflow-x-auto md:scrollbar-hidden md:scroll-smooth md:snap-x md:snap-mandatory md:mx-2 items-center justify-center">
+      <div className="hidden xl:flex md:overflow-x-auto md:scrollbar-hidden md:scroll-smooth md:snap-x md:snap-mandatory md:mx-2 items-center justify-center">
         <div className="flex items-center justify-between mt-12 gap-7">
           {dataTravel.map((item, index) => (
             <Card
