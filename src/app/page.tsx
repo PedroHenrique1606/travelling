@@ -1,25 +1,25 @@
 'use client'
-import { useRef } from "react";
+import Airplane from "@/assets/airplane.png";
+import AppStore from "@/assets/appstore.png";
+import Background from "@/assets/background.png";
+import Baggage from "@/assets/baggage.png";
+import Desawisata from "@/assets/desawisata.png";
+import Duoviage from "@/assets/duoviage.png";
+import FloresRoad from "@/assets/floresroad.png";
+import FooterBG from "@/assets/footer.png";
+import FlorestGlamp from "@/assets/forrestrglamping.png";
+import PlayStore from "@/assets/google-play.png";
+import Hotel from "@/assets/hotel.png";
+import Illus from "@/assets/illus.png";
+import Paket from "@/assets/pakettiket.png";
+import PlannVacation from "@/assets/plannvacation.png";
+import Benefits from "@/components/Benefits/Benefits";
+import Card from "@/components/Card/Card";
 import Navbar from "@/components/Navbar/Navbar";
 import Image from "next/image";
-import Background from "@/assets/background.png";
-import Illus from "@/assets/illus.png";
-import PlayStore from "@/assets/google-play.png";
-import AppStore from "@/assets/appstore.png";
-import Card from "@/components/Card/Card";
-import Benefits from "@/components/Benefits/Benefits";
-import FloresRoad from "@/assets/floresroad.png";
-import Desawisata from "@/assets/desawisata.png";
-import FlorestGlamp from "@/assets/forrestrglamping.png";
-import PlannVacation from "@/assets/plannvacation.png"
-import Paket from "@/assets/pakettiket.png";
-import Duoviage from "@/assets/duoviage.png"
-import Airplane from "@/assets/airplane.png";
-import Hotel from "@/assets/hotel.png";
-import Baggage from "@/assets/baggage.png";
-import FooterBG from "@/assets/footer.png"
-import { IoIosArrowForward } from "react-icons/io";
+import { useRef } from "react";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import { IoIosArrowForward } from "react-icons/io";
 
 const dataTravel = [
   {
