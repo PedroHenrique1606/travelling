@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Airplane from "@/assets/airplane.png";
 import AppStore from "@/assets/appstore.png";
 import Background from "@/assets/background.png";
@@ -57,7 +57,7 @@ const dataTravel = [
     imageUrl: FlorestGlamp.src,
     imageWidth: 500,
     imageHeight: 300,
-  }
+  },
 ];
 
 const benefits = [
@@ -81,8 +81,8 @@ const benefits = [
     description: "Vitae donec pellentesque a aliquam et ultricies auctor. ",
     imageWidth: 55,
     imageHeight: 55,
-  }
-]
+  },
+];
 
 export default function Home() {
   const sliderRef = useRef<HTMLDivElement | null>(null);
@@ -117,17 +117,28 @@ export default function Home() {
         <div className="md:m-24 m-12 md:grid md:grid-cols-2 gap-8 items-center fade-in-up">
           <div className="">
             <h1 className="text-slate-700 text-3xl md:text-5xl font-bold tracking-normal leading-tight mb-4">
-              Start your journey<br />
-              by one click, explore<br />
+              Start your journey
+              <br />
+              by one click, explore
+              <br />
               beautiful world!
             </h1>
             <p className="text-slate-600 text-xs md:text-sm tracking-wider leading-loose">
-              Plan and book your perfect trip with expert advice, travel tips, <br />
+              Plan and book your perfect trip with expert advice, travel tips,{" "}
+              <br />
               destination information and inspiration from us!
             </p>
             <div className="flex mt-3 gap-3">
-              <Image src={PlayStore} alt="Google Play Store" className="w-32 h-[2.8rem] md:w-auto md:h-auto" />
-              <Image src={AppStore} alt="App Store" className="w-32 h-[2.8rem] md:w-auto md:h-auto" />
+              <Image
+                src={PlayStore}
+                alt="Google Play Store"
+                className="w-32 h-[2.8rem] md:w-auto md:h-auto"
+              />
+              <Image
+                src={AppStore}
+                alt="App Store"
+                className="w-32 h-[2.8rem] md:w-auto md:h-auto"
+              />
             </div>
           </div>
           <div className="flex items-center justify-center">
@@ -136,13 +147,26 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="relative my-12 mx-2 xl:hidden"> {/* Exibe apenas em dispositivos móveis */}
+      <div className="relative my-12 mx-2 xl:hidden">
+        {" "}
+        {/* Exibe apenas em dispositivos móveis */}
         <button
           onClick={scrollLeft}
           className="absolute top-1/2 left-0 transform -translate-y-1/2 z-10 p-2 text-white bg-gray-800 rounded-full opacity-75 hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
         >
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7"></path>
+          <svg
+            className="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M15 19l-7-7 7-7"
+            ></path>
           </svg>
         </button>
         <div
@@ -167,8 +191,19 @@ export default function Home() {
           onClick={scrollRight}
           className="absolute top-1/2 right-0 transform -translate-y-1/2 z-10 p-2 text-white bg-gray-800 rounded-full opacity-75 hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
         >
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
+          <svg
+            className="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M9 5l7 7-7 7"
+            ></path>
           </svg>
         </button>
       </div>
@@ -191,18 +226,22 @@ export default function Home() {
         </div>
       </div>
 
-
       <div className="mt-32 md:mt-44 mb-32 md:mb-44 flex gap-8 items-center justify-center fade-in-up">
         <div className="flex flex-col md:flex-row gap-40 mx-3">
           <div className="flex items-center justify-center">
-            <Image src={Duoviage} alt="Illustration" className="w-80 md:w-auto" />
+            <Image
+              src={Duoviage}
+              alt="Illustration"
+              className="w-80 md:w-auto"
+            />
           </div>
           <div className="md:w-2/3">
             <h2 className="text-slate-900 text-3xl md:text-5xl font-bold leading-tight mb-4">
               Why Choose Us
             </h2>
             <p className="text-slate-900 text-xs md:text-sm tracking-wider leading-relaxed">
-              Enjoy different experiences in every place you visit and<br />
+              Enjoy different experiences in every place you visit and
+              <br />
               discover new and affordable adventures of course.
             </p>
             <div className="flex flex-col mt-3 gap-3 mb-5">
@@ -217,7 +256,10 @@ export default function Home() {
                 />
               ))}
             </div>
-            <a href="#" className="text-gray-900 gap-2 font-medium text-base leading-relaxed ml-5 flex items-center text-center">
+            <a
+              href="#"
+              className="text-gray-900 gap-2 font-medium text-base leading-relaxed ml-5 flex items-center text-center"
+            >
               Another Product <IoIosArrowForward />
             </a>
           </div>
@@ -225,7 +267,9 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col items-center justify-center">
-        <p className="text-gray-900 text-3xl font-semibold tracking-wide mb-4">Plan Your Vacation!</p>
+        <p className="text-gray-900 text-3xl font-semibold tracking-wide mb-4">
+          Plan Your Vacation!
+        </p>
         <p className="text-gray-700 text-center text-sm tracking-wider leading-relaxed">
           Various facilities that we provide for your trip <br />
           make your holiday experience more enjoyable.
@@ -242,8 +286,12 @@ export default function Home() {
         <div className="flex flex-col md:justify-center md:items-center py-24 px-12 md:px-24">
           <div className="bg-white/20 backdrop-blur-sm py-24 md:px-36 rounded-2xl flex flex-col md:flex-row items-center gap-8 md:gap-48 border-white border-[1px]">
             <div className="text-white text-center md:text-left">
-              <p className="text-sm md:text-base">Prepare yourself to be a part of exploration of</p>
-              <p className="text-2xl md:text-4xl font-bold">The Beauty of Indonesia</p>
+              <p className="text-sm md:text-base">
+                Prepare yourself to be a part of exploration of
+              </p>
+              <p className="text-2xl md:text-4xl font-bold">
+                The Beauty of Indonesia
+              </p>
             </div>
             <div className="flex flex-col items-center md:items-start gap-4 mt-8 md:mt-0">
               <button className="px-10 md:px-40 py-3 text-xs transition-colors duration-300 bg-cyan-600 text-white rounded-lg font-medium hover:bg-cyan-600/55">
@@ -258,16 +306,29 @@ export default function Home() {
 
         <div className="md:mt-24 ml-32 mr-32 mb-0 flex flex-col md:flex-row justify-evenly items-center md:items-start">
           <p className="text-white text-3xl font-semibold mb-5">Travelling!</p>
-          <ol className="list-none flex flex-col md:flex-row gap-8 text-center">
-            <li><a href="">Product</a></li>
-            <li><a href="">Contact Us</a> </li>
-            <li><a href="">Privacy Policy</a> </li>
-            <li><a href="">About Us</a> </li>
+          <ol className="list-none flex flex-col md:flex-row gap-8 text-center text-white">
+            <li>
+              <a href="">Product</a>
+            </li>
+            <li>
+              <a href="">Contact Us</a>{" "}
+            </li>
+            <li>
+              <a href="">Privacy Policy</a>{" "}
+            </li>
+            <li>
+              <a href="">About Us</a>{" "}
+            </li>
           </ol>
           <div className="flex flex-col items-center md:items-start mt-3 md:mt-0">
             <p className="text-white text-xl font-semibold">Get the App</p>
             <div className="flex flex-col md:flex-row items-center justify-center gap-3">
-              <Image src={PlayStore} alt="Google Play Store" width={120} height={40} />
+              <Image
+                src={PlayStore}
+                alt="Google Play Store"
+                width={120}
+                height={40}
+              />
               <Image src={AppStore} alt="App Store" width={120} height={40} />
             </div>
           </div>
@@ -276,24 +337,23 @@ export default function Home() {
         <hr className="border-t border-gray-300 my-8" />
 
         <div className="px-32 py-10 flex flex-col md:flex-row items-center justify-between">
-          <div className="flex gap-2 mb-4 md:mb-0">
+          <div className="flex gap-2 mb-4 md:mb-0 text-white">
             &copy;
             <p>2024 Travelling.com</p>
           </div>
           <div className="flex gap-4 mt-4">
             <div className="flex items-center justify-center w-10 h-10 border-[1px] cursor-pointer border-white rounded-full">
-              <FaInstagram />
+              <FaInstagram className="text-white" />
             </div>
             <div className="flex items-center justify-center w-10 h-10 border-[1px] cursor-pointer border-white rounded-full">
-              <FaTwitter />
+              <FaTwitter className="text-white" />
             </div>
             <div className="flex items-center justify-center w-10 h-10 border-[1px] cursor-pointer border-white rounded-full">
-              <FaFacebook />
+              <FaFacebook className="text-white" />
             </div>
           </div>
         </div>
       </footer>
-
     </main>
   );
 }
