@@ -284,7 +284,7 @@ export default function Home() {
         style={{ backgroundImage: `url(${FooterBG.src})` }}
       >
         <div className="flex flex-col md:justify-center md:items-center py-24 px-12 md:px-24">
-          <div className="bg-white/20 backdrop-blur-sm py-24 md:px-36 rounded-2xl flex flex-col md:flex-row items-center gap-8 md:gap-48 border-white border-[1px]">
+          <div className="bg-white/20 backdrop-blur-sm py-12 md:py-24 px-10 md:px-36 rounded-2xl flex flex-col md:flex-row items-center gap-8 md:gap-48 border-white border-[1px]">
             <div className="text-white text-center md:text-left">
               <p className="text-sm md:text-base">
                 Prepare yourself to be a part of exploration of
@@ -321,7 +321,7 @@ export default function Home() {
             </li>
           </ol>
           <div className="flex flex-col items-center md:items-start mt-3 md:mt-0">
-            <p className="text-white text-xl font-semibold">Get the App</p>
+            <p className="text-white text-xl font-semibold my-4 md:my-0">Get the App</p>
             <div className="flex flex-col md:flex-row items-center justify-center gap-3">
               <Image
                 src={PlayStore}
