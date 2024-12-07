@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Este projeto é uma landing page **moderna** e **responsiva** para um site de viagens, desenvolvida com Next.js e Tailwind CSS. A página oferece uma experiência visualmente **atraente** com seções destacadas para destinos populares, benefícios dos serviços e um chamado à ação para planejar suas férias. Elementos interativos, **animações suaves** e ícones sociais completam o design, proporcionando uma navegação intuitiva e envolvente para os usuários.
 
-- [Visite o projeto online](https://travelling-ivory.vercel.app/)
+- [Visite o projeto online](https://travelling-page.vercel.app/)
 
 
 ## :memo: Licença
